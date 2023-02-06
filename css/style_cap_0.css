@@ -17,50 +17,7 @@ h1 {
     text-align: center;
     color: #ffffff;
 }
-h3 {
-    font-family: Paranorgers;
-    font-style: bold;
-    font-size: 110%;
-    text-align: center;
-    color: #ffffff;    
-}
 body {
     background:  #242424;
     padding: 5%;
-}
-div {
-    margin: 10%;
-    padding: 0.5%;
-    background: #000000;
-}
-p {
-    text-align: left;
-    margin: 30px;
-    color: #ffffff;
-}
-h4 {
-    position: relative;
-    font-size: 100%;
-    text-align: center;
-    color: #ffffff
-}
-.botao-ciano {
-    background: #387a7f;
-    color: #fff;
-    padding: 1% 2%;
-    border: none;
-    border-radius: 6px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
-    position: fixed;
-    bottom: 10%;
-    right: 45%;
-    font-style: bold;
-    font-size: 100%;
-    transition-property: none;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
-}
-.botao-ciano:hover {
-    background: #698789;
-    cursor: pointer; 
 }

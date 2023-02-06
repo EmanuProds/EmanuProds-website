@@ -4,6 +4,11 @@
    padding: 0; 
    box-sizing: border-box;
 }
+/*Fonte principal para toda a página*/
+@font-face {
+    font-family: Paranorgers;
+    src: url('../fonts/Ultra.ttf')
+}
 body * {
     font-family: 'Inter', sans-serif;
     color: #ffffff
@@ -47,6 +52,7 @@ body {
     transition-duration: 0.5s;
     transition-timing-function: linear;
 }
+/*Efeito ao passar o mouse em cima do botão*/
 .botao-ciano:hover {
     background: #b951dc;
     cursor: pointer; 
