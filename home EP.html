@@ -1,16 +1,35 @@
-<!-- Cabeçário da página, onde ficam as primeiras configurações que o navegador irá ler. -->
+<!--Cabeçário da página, onde ficam as primeiras configurações que somente o navegador irá ler.-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="./css/style_main.css"> <!-- Linkagem para o arquivo CSS com customizações visuais. -->
+    <link rel="stylesheet" href="./css/style_main.css"><!--Linkagem para o arquivo CSS com customizações visuais.-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emanu Prods</title> <!-- Título da página -->
-    <link rel="icon" href=".images/icon_site_5.png">
+    <title>Emanu Prods</title><!--Título da página-->
+    <link rel="icon" href=".images/icon_site_5.png"><!--Icone do website, presente nas pesquisas também.-->
 </head>
-<!-- Corpo da página, onde ficam os principais conteúdos do website. -->
+<!--Corpo da página, onde ficam os principais conteúdos do website (o qual aparecerá ao cliente).-->
 <body>
-    
+    <header><!--Cabeçário do website.-->
+        <div id="abas"><!--Uma divisória, essa em específico irá conter as "abas", as quais levarão o cliente a outras
+páginas-->
+            <h1></h1><!--Título-->
+                <h2></h2><!--Subtítulo-->
+        </div>
+</header>
+<main><!--Separador principal do website-->
+        <div id="container"><!--Outra divisória, contendo um container para o perfil do autor.--> 
+            <div id="profile">
+                <img src="./images/avatar_1.png" alt="Foto do Emanuel Pereira sorrindo, usando óculos e 
+                roupa social cinza, barba e fundo cinza de escritório."><!--Linkagem de uma imagem, com descrição.-->
+                    <p>@Emanu.Prods</p><!--nome/parágrafo.-->
+            </div>
+</main> 
+<footer><!--Rodapé do website.-->
+        <a href="./books/index_1.html" target="_blank"><button class="botao-ciano">Meu livro</button></a><!--Um botão
+que leva para página do livro Paranorgers.--> 
+            <script src="./javascript/script_main.js"></script><!--Linkagem de um script em JavaScript.-->
+</footer>
 </body>
 </html>
