@@ -4,7 +4,6 @@
    padding: 0; 
    box-sizing: border-box;
 }
-
 body * {
     font-family: 'Inter', sans-serif;
     color: #ffffff
@@ -19,13 +18,11 @@ body {
     margin: auto;
     padding-top: 56px;
 }
-
 /* Truque de alinhamento de elementos */
 #profile {
     text-align: center;
     padding: 24px;
 }
-
 #profile img {
     width: 112px;
 }
