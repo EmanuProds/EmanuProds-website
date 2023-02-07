@@ -21,9 +21,6 @@ body  {
     text-align: left;
     display: block;
 }
-#botao_home {
-    text-decoration: none;
-}
 #botao_home img {
     width: 55px;
     padding-top: 10px;
@@ -48,6 +45,6 @@ body  {
     transition-duration: 1s;
     transition-timing-function: linear;
 }
-#botao_home p:visited {
+/*#botao_home p:visited {
 
-}
+}*/
