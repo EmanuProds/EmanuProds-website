@@ -6,11 +6,11 @@
  }
 @font-face {
     font-family: Paranorgers;
-    src: url('../fonts/Ultra.ttf')
+    src: url('../fonts/Inter.ttf')
 }
 body  {
     background-color: #242424;
-    font-family: 'ultra', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #ffffff
 }
 #topo {
@@ -18,7 +18,16 @@ body  {
     height: 65px;
     border: 1px solid red;
     margin: auto;
+    text-align: left;
+    display: block;
 }
-#page-icon {
-
+#topo img {
+    width: 55px;
+    padding-top: 8px;
+    padding-left: 10px;
+    display: inline;
+}
+#topo p {
+    font-weight: 800;
+    display: inli;
 }
