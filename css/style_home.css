@@ -19,7 +19,7 @@ body  {
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     text-align: left;
-    display: block;
+    display: inline;
 }
 #botao_home img {
     width: 55px;
@@ -27,7 +27,6 @@ body  {
     padding-left: 10px;
 }
 #botao_home p {
-    text-decoration: none;
     color: #ffffff;
     font-weight: 750;
     text-align: left;
@@ -35,10 +34,7 @@ body  {
     margin-left: 65px;
 }
 #botao_home p:hover {
-    text-decoration: none;
     color:#e200e9;
-    border: none;
-    border-radius: 6px;
     position: fixed;
     cursor: pointer;
     transition-property: none;
